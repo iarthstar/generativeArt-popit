@@ -1,0 +1,33 @@
+<html>
+
+<head>
+	<title>Generative Art - Pop IT</title>
+	<style>
+		#paper {
+			position: absolute;
+			width: 2480px;
+			height: 3508px;
+			margin-left: calc((100% - 2480px)/2);
+			margin-top: calc((5000px - 3508px)/2);
+			box-shadow: 400px 200px 1000px rgba(0, 0, 0, 0.50), -400px 200px 1000px rgba(0, 0, 0, 0.50);
+		}
+
+		#popit {
+			margin-left: 50px;
+			margin-top: 50px;
+		}
+	</style>
+</head>
+
+<body>
+	<div>
+		<div id="paper">
+			<canvas id="popit" width="2380" height="3408"></canvas>
+		</div>
+		<canvas id="popit-bg"></canvas>
+	</div>
+
+	<script src="popit.js"></script>
+</body>
+
+</html>
